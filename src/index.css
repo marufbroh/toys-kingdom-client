@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-color {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 ;
+  }
+
+  .btn-primary {
+    @apply font-medium shadow-sm px-3 py-1 lg:py-2 text-lg rounded-md text-white bg-cyan-500 hover:bg-black;
+  }
+  
+  .btn-outlined {
+    @apply px-4 py-2 border border-white text-white rounded-lg transition-colors duration-300 hover:bg-white hover:text-blue-500 focus:outline-none;
+  }
+
+.active {
+    @apply font-medium tracking-wide text-white transition-colors duration-200;
+  }
+  
+  .default {
+    @apply font-medium tracking-wide text-gray-300 transition-colors duration-200 hover:text-white;
+  }
